@@ -626,8 +626,8 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 10;
-    background-color: var(#2e2f42);
+    /* z-index: 10; */
+    background-color: rgba(46, 47, 66, 0.40);
     position: fixed;
     cursor: default;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -662,8 +662,6 @@ p {
       0px 2px 1px rgba(0, 0, 0, 0.2);
     /* z-index: 10; */
   }
-  
- 
   
   .modal-title {
     font-weight: 500;
@@ -746,10 +744,11 @@ p {
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  /* .modal-field:focus,
+  .modal-field:focus,
   .modal-field:active {
     border: 1px solid var(--color-logo);
-  } */
+  }
+
   .modal-icon {
     position: absolute;
     width: 18px;
