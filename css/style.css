@@ -626,7 +626,6 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
-    /* z-index: 10; */
     background-color: rgba(46, 47, 66, 0.40);
     position: fixed;
     cursor: default;
@@ -634,12 +633,6 @@ p {
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  /* .is-open {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  } */
-
   .backdrop.is-open {
     visibility: visible;
     opacity: 1;
@@ -660,7 +653,6 @@ p {
     padding-top: 72px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
-    /* z-index: 10; */
   }
   
   .modal-title {
@@ -703,7 +695,7 @@ p {
   }
   .modal-close-btn[type='button']:hover .modal-close-icon,
   .modal-close-btn[type='button']:focus .modal-close-icon {
-    fill: var(--color-white);
+    fill: var(--color-secondary);
   }
   .modal-form {
     display: flex;
@@ -841,16 +833,3 @@ p {
     background-color: var(--color-hover-focus);
   }
   
-  /* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  } */
